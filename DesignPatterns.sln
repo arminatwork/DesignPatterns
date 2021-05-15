@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory_Example", "Creational\AbstractFactory\AbstractFactory_Example.csproj", "{B0DE88F2-49FC-4A14-B733-C330A56BC4D5}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{CB9C7079-1EEF-4D4F-BAF7-1AFE92A42FFD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder_Example", "Creational\Builder_Example\Builder_Example.csproj", "{2709B332-A41D-468F-9F7E-245F3991557F}"
@@ -15,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype_Example", "Creati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory_Example", "Creational\AbstractFactory_Example\AbstractFactory_Example.csproj", "{95F49464-B6F0-4421-B54B-3FEB29707ACA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton_Example", "Creational\Singleton_Example\Singleton_Example.csproj", "{B4E2CAC6-3FBD-4914-BD6D-32640CCB9EAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton_Example", "Creational\Singleton_Example\Singleton_Example.csproj", "{B4E2CAC6-3FBD-4914-BD6D-32640CCB9EAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter_Example", "Structural\Adapter\Adapter_Example.csproj", "{22E7207C-6BFC-4EA7-9426-01D49C9C8939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{7AA632E2-DE6A-4B12-91CC-C1A8B8987729}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B0DE88F2-49FC-4A14-B733-C330A56BC4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B0DE88F2-49FC-4A14-B733-C330A56BC4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B0DE88F2-49FC-4A14-B733-C330A56BC4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B0DE88F2-49FC-4A14-B733-C330A56BC4D5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2709B332-A41D-468F-9F7E-245F3991557F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2709B332-A41D-468F-9F7E-245F3991557F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2709B332-A41D-468F-9F7E-245F3991557F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,17 +45,21 @@ Global
 		{B4E2CAC6-3FBD-4914-BD6D-32640CCB9EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4E2CAC6-3FBD-4914-BD6D-32640CCB9EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4E2CAC6-3FBD-4914-BD6D-32640CCB9EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E7207C-6BFC-4EA7-9426-01D49C9C8939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E7207C-6BFC-4EA7-9426-01D49C9C8939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E7207C-6BFC-4EA7-9426-01D49C9C8939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E7207C-6BFC-4EA7-9426-01D49C9C8939}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{B0DE88F2-49FC-4A14-B733-C330A56BC4D5} = {CB9C7079-1EEF-4D4F-BAF7-1AFE92A42FFD}
 		{2709B332-A41D-468F-9F7E-245F3991557F} = {CB9C7079-1EEF-4D4F-BAF7-1AFE92A42FFD}
 		{40D3D90D-337D-4615-B192-FF899D81F747} = {CB9C7079-1EEF-4D4F-BAF7-1AFE92A42FFD}
 		{F10EDB78-44DA-4C59-9D68-281A4B07B974} = {CB9C7079-1EEF-4D4F-BAF7-1AFE92A42FFD}
 		{95F49464-B6F0-4421-B54B-3FEB29707ACA} = {CB9C7079-1EEF-4D4F-BAF7-1AFE92A42FFD}
 		{B4E2CAC6-3FBD-4914-BD6D-32640CCB9EAA} = {CB9C7079-1EEF-4D4F-BAF7-1AFE92A42FFD}
+		{22E7207C-6BFC-4EA7-9426-01D49C9C8939} = {7AA632E2-DE6A-4B12-91CC-C1A8B8987729}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A326C123-FE7D-4212-953B-21CEF73793E1}
